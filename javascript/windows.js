@@ -40,5 +40,7 @@ if (bodyDisplay === "none") {
 }
 document.querySelector(".PortFolio-Link").addEventListener("click", (e) => {
   e.preventDefault();
-  alert("Link unavailable");
+  window.location.href = " https://umaidhamid.github.io/My-Portfolio/";
+  // alert("Link unavailable");
 });
+
