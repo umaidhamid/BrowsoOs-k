@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrowsoOS-K</title>
+    <link rel="stylesheet" href="style/script.css" />
+    <link rel="stylesheet" href="style/taskBar.css" />
+    <link rel="stylesheet" href="style/windowsScreen.css" />
+  </head>
+  <body>
+    <div id="screen">
+      <div id="b-kimage">
+        <div class="apps-container">
+          <div class="app my-pc draggable=" true>
+            <img src="images/desktop.webp" alt="pc" />
+          </div>
+          <div class="app notes">
+            <img src="images/sticky-notes.webp" alt="pc" />
+          </div>
+          <div class="app calculator">
+            <img src="images/calculator.webp" alt="pc" />
+          </div>
+          <div class="app game"><img src="images/games.webp" alt="pc" /></div>
+          <div class="app countcharacters">
+            <img src="images/count.webp" alt="pc" />
+          </div>
+          <div class="app tik-tak-toe">
+            <img src="images/tic-tac-toe.webp" alt="tik tak toe" />
+          </div>
+        </div>
+        <!-- task Bar  -->
+        <div class="taskbar">
+          <div class="taskitems">
+            <div class="items">
+              <img
+                class="windowBtn images"
+                src="images/windows.webp"
+                alt="windows icon "
+              />
+            </div>
+            <div class="items">
+              <a href="https://chatgpt.com/" target="_blank"
+                ><img class="images" src="images/chatgpt.webp" alt=""
+              /></a>
+            </div>
+            <div class="items">
+              <a href="https://youtube.com/" target="_blank"
+                ><img class="images" src="images/youtube.webp" alt=""
+              /></a>
+            </div>
+            <div class="items">
+              <a href="https://chess.com/" target="_blank"
+                ><img class="images" src="images/strategy.webp" alt=""
+              /></a>
+            </div>
+            <div class="app document">
+              <img src="/images/document.webp" alt="document" />
+            </div>
+          </div>
+          <div class="taskitems taskitems2">
+            <div class="appspace"></div>
+            <div class="TimeDate">
+              <span class="span1"></span> <span class="span2"></span>
+            </div>
+          </div>
+          <div class="taskitems taskitems3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- // mouse right click menu -->
+    <div class="menu">
+      <div class="menItem">View</div>
+      <div class="menItem">Sort</div>
+      <div class="menItem">Refresh</div>
+      <div class="menItem">Past</div>
+      <div class="menItem">Copy</div>
+      <div class="menItem">New Folder</div>
+      <div class="menItem change-Wallpaper">change Wallpaper</div>
+      <div class="menItem Change-theme">Change Theme</div>
+    </div>
+
+    <div class="windowsScreen">
+      <div class="part1">
+        <img src="images/profile.webp" alt="First Image" />
+        <img src="images/document.webp" alt="First Image" />
+        <img src="images/settings.webp" alt="First Image" />
+        <img src="images/power.webp" alt="First Image" />
+      </div>
+
+      <div class="part2">
+        <input
+          type="text "
+          style="width: 100%"
+          placeholder="Search"
+          class="loading"
+        />
+        <h1 class="loading">loading</h1>
+        <h1 class="loading">loading</h1>
+        <h1 class="loading">loading</h1>
+        <h1 class="loading">loading</h1>
+      </div>
+    </div>
+
+    <!--  open My pc-Window  -->
+    <div class="resize">
+      <div class="resizeMenu">
+        <div>My Window</div>
+        <div class="cross">X</div>
+      </div>
+      <div class="resizeContent">
+        <!--  portfolio link   js line 41 In windows file  -->
+        <a class="PortFolio-Link" href=""
+          ><span> <img src="images/portfolio.webp" alt="My porfolio" /> </span
+        ></a>
+      </div>
+    </div>
+
+    <!--  java script -->
+    <script src="javascript/windows.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/taskbar.js"></script>
+  </body>
+</html>

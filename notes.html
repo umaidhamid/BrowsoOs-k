@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style/notes.css" />
+  </head>
+  <body>
+    <button id="BackBtn" style="display: inline">⬅ Back</button>
+
+    <div class="form" id="formContainer">
+      <h1>My Notes</h1>
+      <form id="noteForm">
+        <input
+          type="text"
+          id="name"
+          placeholder="Note Title"
+          maxlength="18"
+          minlength="3"
+          required
+        />
+        <input
+          type="text"
+          id="description"
+          placeholder="Short Description"
+          required
+        />
+        <textarea
+          id="note"
+          placeholder="Write your note here..."
+          required
+        ></textarea>
+        <div class="btn-group">
+          <input type="button" id="saveBtn" value="Save Note" />
+          <button type="button" id="viewBtn">View Notes</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="notes"></div>
+    <button id="addNoteBtn" style="display: none">+ Add Note</button>
+
+    <script src="javascript/notes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, #5f5959, #000);
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  padding: 20px;
+  background-color: rgb(30, 28, 28);
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+#saveBtn {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#saveBtn:hover {
+  background-color: #3e8e41;
+}
+
+#viewBtn {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#viewBtn:hover {
+  background-color: #1976d2;
+}
+
+#notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.NoteList {
+  background-color: black;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  width: 330px;
+}
+
+.NoteList h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.NoteList h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.NoteList p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.deleteBtn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: darkred;
+}
+#BackBtn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.2s ease;
+}
+
+#BackBtn:hover {
+  background-color: #2980b9;
+}
+
+#BackBtn:active {
+  background-color: #1f5d85;
+}
+
+#addNoteBtn {
+  background-color: #ffa500;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#addNoteBtn:hover {
+  background-color: #cc8400;
+}
