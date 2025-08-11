@@ -130,8 +130,8 @@ html {
   height: 110px;
   display: inline-block; /* so width & height apply */
   overflow: hidden; /* hides any part of the image that overflows */
-  box-shadow: 0 0 10px 1px black;
-  border-radius: 20px 20px 0 0;
+/*   box-shadow: 0 0 10px 1px black; */
+/*   border-radius: 20px 20px 0 0; */
   transition: all 500ms ease;
 }
 .resizeContent span:hover{
@@ -148,3 +148,4 @@ html {
 .document {
   display: none;
 }
+
